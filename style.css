@@ -1,0 +1,459 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    display: absolute;
+    margin: 56px 179px;
+}
+.header {
+    display: absolute;
+
+}
+
+.logo-circle {
+    display: absolute;
+
+}
+.letter-t {
+    display :absolute;
+    width: 40.83px;
+    height: 41px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color:white;
+    margin: -41px;
+    margin-left: 12px;
+
+}
+.trafalgar {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+    margin-left: 50px;
+    margin-top:3.5px;
+
+}
+.nav-bars {
+    display: absolute;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: -10px;
+    ;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: absolute;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 50%;
+
+}
+.home-active {
+   /* font-weight: 700 bold;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22.59px;*/
+    color: Black;
+    opacity: 1;
+    
+}
+.introduction {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700 bold;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 283px;
+
+}
+.introduction-infos {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    margin-top: 25px;
+    color: #7D7987;
+    
+}
+.consult-today-btn {
+    border: none;
+    color: white;
+    margin-top: 48px;
+    padding: 1px 39.84px;
+    font-family: 'Mulish', sans-serif;
+    font-style:normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #458FF6;
+    border-radius: 50px
+
+}
+.introduction-img {
+    display: absolute;
+    float: right;
+    width: 650px;
+    height: 598px;
+    margin-top: -500px;
+}
+
+
+.service-text {
+    display: absolute;
+    text-align: center;
+    margin-top: 220px;
+    font-family:'Mulish', sans-serif;
+    font-style:normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height:56px;
+}
+.service-info-text {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-top: 61px;
+
+}
+.main-container-service-options {
+    display: flex;
+    flex-direction: inline-block;
+}
+.service-option-first-box {
+    width: 354px;
+    border: 1px solid white;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0.1px rgb(236, 230, 230);
+}
+.image1 {
+    width: 93.01px;
+    height: 90px;
+    margin-left: 37.42px;
+    margin-top: 54px;
+}
+.search-doctor {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    margin-left: 37.42px;
+}
+.search-info-text {
+    display:absolute;
+    margin-left: 37.42px;
+    margin-bottom: 47px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.service-option-second-box {
+    display: absolute;
+    width: 354px;
+    margin-left: 34.38px;
+    margin-top: 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0.1px rgb(236, 230, 230);
+
+}
+.image2 {
+    width: 93.01px;
+    height: 90px;
+    margin-left: 37.42px;
+    margin-top: 54px;
+}
+.online-pharmacy {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    margin-left: 37.42px;
+}
+.online-pharmacy-text {
+    display:absolute;
+    margin-left: 37.42px;
+    margin-bottom: 47px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+.service-option-third-box {
+    display: absolute;
+    width: 354px;
+    margin-left: 34.38px;
+    margin-top: 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0.1px rgb(236, 230, 230);
+
+}
+.image3 {
+    width: 93.01px;
+    height: 90px;
+    margin-left: 37.42px;
+    margin-top: 54px;
+
+}
+.consultation {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    margin-left: 37.42px;
+
+}
+.consultation-text {
+    display:absolute;
+    margin-left: 37.42px;
+    margin-bottom: 47px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987; 
+
+}
+
+.second-column-main-container {
+    display: flex;
+    flex-direction: inline-block;
+}
+.service-option-fourth-box {
+    display: absolute;
+    width: 354px;
+    margin-left: 3px;
+    margin-top: 37px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0.1px rgb(236, 230, 230);
+
+}
+
+.image4 {
+    width: 93.01px;
+    height: 90px;
+    margin-left: 37.42px;
+    margin-top: 54px;
+
+}
+
+.details-info {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    margin-left: 37.42px;
+
+}
+
+.details-info-text {
+    display: absolute;
+    margin-left: 37.42px;
+    margin-bottom: 47px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987; 
+
+}
+.service-option-fifth-box {
+    display: absolute;
+    width: 354px;
+    margin-left: 34.38px;
+    margin-top: 37px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0.1px rgb(236, 230, 230);
+
+}
+.image5 {
+    width: 80.9px;
+    height: 71.5px;
+    margin-left: 37.42px;
+    margin-top: 70px;
+
+}
+.emergency-care {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    margin-left: 37.42px;
+
+}
+.emergency-care-text {
+    display:absolute;
+    margin-left: 37.42px;
+    margin-bottom: 47px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+
+}
+.service-option-sixth-box {
+    display: absolute;
+    width: 354px;
+    margin-left: 34.38px;
+    margin-top: 37px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0.1px rgb(236, 230, 230);
+}
+
+.image6 {
+    width: 93.01px;
+    height: 90px;
+    margin-left: 37.42px;
+    margin-top: 54px;
+}
+
+.tracking {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    margin-left: 37.42px;
+
+}
+
+.tracking-text{
+    display:absolute;
+    margin-left: 37.42px;
+    margin-bottom: 47px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987; 
+}
+
+.learn-more-btn {
+    border: 1px solid #458FF6;
+    color: #458FF6;
+    border-radius: 50px;
+    margin-top: 69px;
+    margin-left: 40%;
+    padding: 1px 60px;
+    background-color: white;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    
+}
+
+.title2-second-part {
+    display: absolute;
+
+    
+
+}
+.buttom-image {
+    width: 650px;
+    height: 477px;
+    margin-top: 192px;
+    margin-left: -70px;
+
+}
+.title2-info {
+    float: right;
+    margin-top: -40px;
+}
+
+.leading-healthcare-title {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 56px;
+    margin-top: -400px;
+    margin-left: 1px;
+}
+
+.leading-healthcare-info {
+    display: absolute;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-top: 59px;
+
+}
+
+.learn-more-btn2 {
+border: 1px solid #458FF6;
+    color: #458FF6;
+    border-radius: 50px;
+    margin-top: 37px;
+    margin-left: 1%;
+    padding: 1px 60px;
+    background-color: white;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+
+}   
+
+
